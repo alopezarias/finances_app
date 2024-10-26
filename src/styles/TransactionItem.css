@@ -1,0 +1,40 @@
+/* src/styles/TransactionItem.css */
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.transaction-item:last-child {
+    border-bottom: none;
+}
+
+.transaction-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-details .description {
+    font-size: 16px;
+}
+
+.transaction-details .date {
+    font-size: 12px;
+    color: #888;
+}
+
+.amount {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.amount.income {
+    color: var(--secondary-color);
+}
+
+.amount.expense {
+    color: var(--error-color);
+}

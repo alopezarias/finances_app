@@ -1,0 +1,39 @@
+/* src/styles/Dashboard.css */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    margin-top: 80px; /* Height of header */
+}
+
+main {
+    flex: 1;
+    padding: 24px;
+    margin-left: 250px; /* Width of sidebar */
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .bottom-navigation {
+        display: none;
+    }
+}

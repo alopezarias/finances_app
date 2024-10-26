@@ -1,11 +1,12 @@
 // src/components/Footer.tsx
 
 import React from 'react';
+import '@styles/Footer.css';
 
 const Footer: React.FC = () => {
     return (
-        <footer>
-            <p>© 2023 Mi Aplicación. Todos los derechos reservados.</p>
+        <footer className="footer">
+            <p>© {new Date().getFullYear()} Finanzas Personales. Todos los derechos reservados.</p>
         </footer>
     );
 };

@@ -1,0 +1,15 @@
+/* src/styles/Transactions.css */
+
+.transactions-page main {
+    padding: 24px;
+}
+
+.transactions-page h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.transactions-list {
+    display: flex;
+    flex-direction: column;
+}

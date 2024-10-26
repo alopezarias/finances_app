@@ -1,0 +1,59 @@
+/* src/styles/Login.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 32px;
+    background-color: var(--card-background-color);
+    color: var(--card-text-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.login-container form label {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.login-container form label input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.login-container form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container form button:hover {
+    background-color: #3a78c2;
+}
+
+.login-container a {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    color: var(--primary-color);
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}

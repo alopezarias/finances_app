@@ -1,0 +1,41 @@
+/* src/styles/BottomNavigation.css */
+
+.bottom-navigation {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .bottom-navigation {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--navigation-background-color);
+        border-top: 1px solid var(--border-color);
+        z-index: 1000;
+    }
+
+    .bottom-navigation a {
+        flex: 1;
+        text-align: center;
+        padding: 8px 0;
+        color: var(--navigation-text-color);
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .bottom-navigation a.active {
+        color: var(--navigation-active-color);
+    }
+
+    .bottom-navigation a svg {
+        display: block;
+        margin: 0 auto 4px;
+        font-size: 20px;
+    }
+
+    .bottom-navigation a span {
+        font-size: 12px;
+    }
+}

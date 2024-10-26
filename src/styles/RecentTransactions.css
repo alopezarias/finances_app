@@ -1,0 +1,55 @@
+/* src/styles/RecentTransactions.css */
+
+.recent-transactions {
+    background-color: var(--card-background-color);
+    color: var(--card-text-color);
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recent-transactions h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.recent-transactions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-transactions ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.recent-transactions ul li:last-child {
+    border-bottom: none;
+}
+
+.recent-transactions .description {
+    font-size: 16px;
+}
+
+.recent-transactions .date {
+    font-size: 12px;
+    color: #888;
+}
+
+.recent-transactions .amount {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.recent-transactions .amount.income {
+    color: var(--secondary-color);
+}
+
+.recent-transactions .amount.expense {
+    color: var(--error-color);
+}

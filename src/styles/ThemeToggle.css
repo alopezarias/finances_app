@@ -1,0 +1,14 @@
+/* src/styles/ThemeToggle.css */
+
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--header-text-color);
+    font-size: 18px;
+    padding: 8px;
+}
+
+.theme-toggle:hover {
+    color: var(--primary-color);
+}

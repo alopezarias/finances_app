@@ -1,0 +1,19 @@
+/* src/styles/AccountCard.css */
+
+.account-card {
+    background-color: var(--card-background-color);
+    color: var(--card-text-color);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.account-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.account-card p {
+    font-size: 14px;
+    margin: 4px 0;
+}

@@ -1,0 +1,21 @@
+/* src/styles/BalanceTotal.css */
+
+.balance-total {
+    background-color: var(--card-background-color);
+    color: var(--card-text-color);
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.balance-total h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.balance-total p {
+    font-size: 32px;
+    font-weight: bold;
+}
